@@ -1,7 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore Node.js server dependencies
+/server/node_modules/
 
-# dependencies
-/node_modules
+# Ignore React client dependencies
+/client/node_modules/
 
-# misc
-.env
+# Ignore environment files
+/server/.env
+/client/.env
+
